@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url('http://fonts.cdnfonts.com/css/jaapokki');
+
+@font-face {
+  font-family: 'JaapokkiRegular';
+  font-family: 'Jaapokki', sans-serif;
+  font-family: 'Jaapokki enchance', sans-serif;
+  font-family: 'Jaapokki subtract', sans-serif;
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: #6A6A6A;
+  background: url(background.png) !important;
+}
+
+body>.container {
+  padding: 10px 15px 10px;
+}
+
+.card-login {
+  margin-top: 80px;
+  padding: 0px;
+
+}
+
+.text-blue {
+  color: #00c0fa;
+}
+
+.card-login a {
+  color: rgb(167, 167, 167);
+  font-size: 13px;
+}
+
+.card-login a:hover {
+  color: rgb(0, 89, 255);
+}
+
+input {
+  border-radius: 10px !important;
+}
+
+.btn-login {
+  border-radius: 10px;
+  background-color: #00c0fa;
+}
+
+.btn-login:hover {
+  background-color: #239afc;
+}
+
+h4 {
+  color: #00c0fa;
+}
+
+@media (max-width: 576px) {
+  .mt-7 {
+    margin-top: 80px;
+  }
+}
+
+.card-body img.logo-card {
+  border-radius: 20%;
+  width: 40px;
+}
+
+
+
+.poto img {
+  border-radius: 50%;
+  width: 100px;
+  border: 3px solid rgb(211, 210, 210);
+}
+
+.poto p {
+  font-size: 20px;
+  font-style: oblique;
+  font-weight: bold;
+  color: black;
+}
+
+.id-number {
+  background-color: white;
+  padding: 5px;
+  color: rgb(31, 31, 31);
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.id-number img {
+  max-width: 100px;
+}
+
+.id-number img.potoBarcode {
+  max-width: 200px;
+}
+
+.id-number p {
+  color: #180070;
+}
+
+.card-footer {
+  color: #ffffff;
+  padding-bottom: 5px;
+}
